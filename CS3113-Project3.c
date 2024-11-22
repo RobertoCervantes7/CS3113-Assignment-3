@@ -1,4 +1,4 @@
-// Robert Cervantes
+// Name - Robert Cervantes
 #define _REENTRANT // Ensures thread-safe behavior with POSIX libraries
 #include <pthread.h>
 #include <stdio.h>
