@@ -10,6 +10,14 @@ System Requirements
 
 The program is designed to run on a Linux operating system and requires GCC as the compiler. The development environment used for this project is Visual Studio Code, and GitHub is recommended for version control.
 
+Directory Structure
+
+cs3113-Assignment2/
+├── CS3113-Project3.c       # Main implementation file
+├── README.md               # Project documentation
+├── mytest.dat              # Input file with up to 150 characters
+└── CS3113 Project 3 Report.pdf  # Detailed project report
+
 Project Details
 
 This project uses a circular buffer of size 15 to allow the producer and consumer threads to exchange data. The producer reads characters from the input file and writes them to the buffer, while the consumer retrieves these characters and prints them to the screen. To ensure proper synchronization, three semaphores are used:
